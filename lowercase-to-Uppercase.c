@@ -4,8 +4,6 @@
 #include <stdlib.h>
 
 int main() {
-
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
     char a;
     scanf("%c",&a);
     char b = a-32;
