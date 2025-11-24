@@ -2,14 +2,17 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
+
 int buildNumber(int A,int B,int C,int D)
 {
   int res=(A*1000+B*100+C*10+D)*5;
     return res;
 }
+
 int main() {
     int a,b,c,d;
     scanf("%d %d %d %d",&a,&b,&c,&d);
     printf("The number is: %d",buildNumber(a,b,c,d));
     return 0;
+  
 }
