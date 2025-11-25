@@ -5,7 +5,7 @@
 
 int main() {
 
-   int a;
+    int a;
     scanf("%d",&a);
     float res=a/2.00;
     printf("Half of %d is %.2f",a,res);
