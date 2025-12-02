@@ -19,6 +19,7 @@
 #include <stdlib.h>
 
 int main() {
+    
     char a;
     scanf("%c",&a);
     char b = a-32;
